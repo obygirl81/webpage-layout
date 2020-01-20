@@ -24,6 +24,7 @@
     height: 400px;
     padding: 12px;
     border: 1px solid burlywood;
+    float: left;
   }
   
   main {
@@ -32,9 +33,11 @@
     height: 400px;
     padding: 12px;
     border: 1px solid white;
+    float: left;
   }
   
   footer {
+      clear: both;
     background-color: #26292c;
     width: 1000px;
     height: 100px;
