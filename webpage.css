@@ -1,0 +1,44 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 1000px;
+    color: silver;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.25em;
+  }
+  
+  header {
+    background-color: #df2344;
+    height: 100px;
+    padding: 12px;
+    border: 1px solid coral;
+  }
+  
+  aside {
+    background-color: #897960;
+    width: 300px;
+    height: 400px;
+    padding: 12px;
+    border: 1px solid burlywood;
+  }
+  
+  main {
+    background-color: #ff6f6f;
+    width: 700px;
+    height: 400px;
+    padding: 12px;
+    border: 1px solid white;
+  }
+  
+  footer {
+    background-color: #26292c;
+    width: 1000px;
+    height: 100px;
+    padding: 12px;
+    border: 1px solid gold;
+  }
+  
